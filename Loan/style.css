@@ -1,3 +1,4 @@
+
 .navbar{
     height:64px;
     background-color: aqua;
@@ -25,8 +26,16 @@
     box-shadow: 5px 2px 3px black;
     
 }
+.login:hover{
+    box-shadow: 8px 8px 10px black;
+    background-color: yellowgreen;
+}
 
 .nav-logo{
     display: flex;
     align-items: center;
+}
+
+span:hover{
+    color: red;
 }
