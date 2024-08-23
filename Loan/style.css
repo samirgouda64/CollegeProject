@@ -1,0 +1,25 @@
+.navbar{
+    height:64px;
+    background-color: aqua;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+.nav{
+    display: flex;
+    width: 50%;
+    justify-content: space-evenly;
+}
+.nav-sign{
+    /* width: 150px; */
+    
+}
+.nav-sign button{
+    height: 30px;
+    width: 80px;
+    margin-left:8px;
+}
+.nav-logo{
+    display: flex;
+    align-items: center;
+}
