@@ -1,7 +1,12 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+}
 
 .navbar{
     height:64px;
-    background-color: aqua;
+    background-color: #424CF0;
     display: flex;
     justify-content:space-between;
     align-items: center;
@@ -12,6 +17,9 @@
     width: 50%;
     justify-content: space-evenly;
     align-items: center;
+}
+.nav span{
+    cursor: pointer;
 }
 .nav-sign{
     width: 20%;
@@ -37,5 +45,6 @@
 }
 
 span:hover{
-    color: red;
+    color:bisque;
 }
+
