@@ -48,3 +48,7 @@ span:hover{
     color:bisque;
 }
 
+.nav img{
+    border-radius: 15px;
+    padding-top: 5px;
+}
