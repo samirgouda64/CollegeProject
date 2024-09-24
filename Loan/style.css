@@ -53,3 +53,26 @@ span:hover{
     border-radius: 15px;
     padding-top: 5px;
 }
+
+
+.heroic{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+.content{
+    height: 400px;
+    width: 1150px;
+    overflow: hidden;
+    box-shadow:1px 1px 15px rgba(0,0,0,0.4) ;
+}
+.content .images{
+    height: 100%;
+    width: 100%;
+}
+.images img{
+    height: 100%;
+    width: 100%;
+    background-size:auto;
+}
