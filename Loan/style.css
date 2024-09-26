@@ -141,3 +141,84 @@ footer{
     color: green;
 }
 
+.common-title{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.common-title h2{
+    font-size: 2rem;
+    color: blue ;
+}
+.common-title span{
+    color: #4c5f74;
+    font-size: 1.4rem;
+}
+.view-list{
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    flex-direction: column;
+    gap: 20px;
+    
+}
+.view-list-home{
+    display: flex;
+    justify-content: space-between;
+    max-width: 860px;
+    margin: 40px auto 0;
+    padding: 50px 0;
+}
+
+/* .get-loan-card{
+    float: left;
+    width: 100%;
+} */
+.loan-process-card{
+    background:#2d3079;
+    border-radius: 22px;
+    height: 484px;
+    width: 900px;
+    margin:auto;
+    display: flex;
+    padding: 90px 90px 70px;
+    align-items: center;
+    justify-content: space-between;
+}
+.loan-process-title span{
+    font-size: 24px;
+    color: #fff;
+    font-weight: 400;
+}
+.loan-process-title h3{
+    margin: 16px 0 54px;
+    color: #fff;
+    font-size: 36px;
+    line-height: 140%;
+    font-weight: 600;
+}
+
+.loan-process-list .list-view{
+    padding: 20px 24px;
+    font-weight: 400;
+    color: #fff;
+    font-size: 20px;
+    display: flex;
+    border-radius: 12px;
+}
+.loan-process-list .list-view:hover{
+    background-color: orange;
+}
+
+.patner-bank-main{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: 2rem;
+}
+.common-title{
+    text-align: center;
+    margin-bottom: 30px;
+}
