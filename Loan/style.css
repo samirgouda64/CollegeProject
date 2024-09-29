@@ -2,14 +2,15 @@
     margin: 0;
     padding: 0;
     font-family: "Poppins", sans-serif;
+    
 }
 body{
-    margin: 20px;
+    margin:5px;
     background-color: rgb(178, 201, 247);
 }
 
 .navbar{
-    height:75px;
+    height:5rem;
     background-color: #424CF0;
     position: sticky;
     top: 0;
@@ -17,13 +18,9 @@ body{
     display: flex;
     justify-content:space-between;
     align-items: center;
-    border-radius: 10px;
+    border-radius: 0.75rem;
 }
-footer{
-    height: 400px;
-    /* background-color: yellowgreen; */
-    margin-top: 20px;
-}
+
 .nav{
     display: flex;
     height: 100%;
@@ -38,8 +35,8 @@ footer{
     width: 20%;
 }
 .nav-sign button{
-    height: 30px;
-    width: 80px;
+    height: 2rem;
+    width: 5rem;
     margin-left:8px;
     background-color:honeydew;
     border: none;
@@ -172,6 +169,13 @@ footer{
     padding: 50px 0;
 }
 
+@media (max-width: 767px) {
+    .view-list-home {
+        flex-wrap: wrap;
+        padding: 0 15px;
+    }
+}
+
 /* .get-loan-card{
     float: left;
     width: 100%;
@@ -212,13 +216,64 @@ footer{
     background-color: orange;
 }
 
-.patner-bank-main{
+
+
+@media (max-width: 767px) {
+    .loan-process-card {
+        padding: 45px 15px;
+        flex-wrap: wrap;
+        border-radius: 0;
+        height: 100%;
+        width:min-content;
+    }
+}
+
+
+/* footer part */
+
+footer{
+    height: 400px;
+    background-color: #929fba;
+    margin-top: 3rem;
+}
+.foot-conteiner{
     display: flex;
     justify-content: center;
-    width: 100%;
-    margin-top: 2rem;
+    align-items: center;
+    justify-content:space-between;
+    padding: 20px 10px;
 }
-.common-title{
-    text-align: center;
-    margin-bottom: 30px;
+.foot-row{
+    display: flex;
+    justify-content: center;
+    align-items:flex-start;
+    justify-content:space-evenly;
+    width: 70%;
+    
+}
+.foot-row li{
+    padding-bottom: 20px;
+    font-size: 1rem;
+}
+.rowItem1{
+    width: 24%;
+    align-self: flex-start;
+
+}
+.row-icons{
+    display: flex;
+    padding-top: 20px;
+  
+}
+.row-icons a{
+    font-size: 1.5rem;
+    margin-right: 0.75rem;
+    opacity: 0.5;
+}
+.row-icons a:hover{
+    opacity: 7;
+}
+.rowItem1 p{
+    color: white;
+    font-size: 1.25rem;
 }
