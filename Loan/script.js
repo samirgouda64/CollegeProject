@@ -12,3 +12,14 @@
 //     img[indexValue -1].style.display = "block";
 // }
 // slideShow();
+
+let regdBtn = document.querySelector(".register");
+let loginBtn = document.querySelector(".login");
+
+regdBtn.addEventListener("click", function(){
+    window.location.href ="SignupPage/signup.html";
+ });
+
+loginBtn.addEventListener("click", function(){
+   window.location.href ="loginPage/login.html";
+});
